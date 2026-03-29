@@ -1,0 +1,14 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+# New Playwright Ignore Files
+sampleproject/node_modules/
+sampleproject/playwright-report/
+sampleproject/test-results/
+sampleproject/playwright/.cache/
+sampleproject/playwright/.auth/
