@@ -1,0 +1,21 @@
+
+body{
+    background-color: lightyellow;
+}
+
+h2{
+    text-align: center;
+    color:blue
+}
+
+p{
+    font-size: 15px;
+    font-family: Verdana;
+    color:red
+}
+
+p#test1{
+    font-size: 15px;
+    font-family: Verdana;
+    color:blue
+}

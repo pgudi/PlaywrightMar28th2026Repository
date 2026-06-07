@@ -1,0 +1,20 @@
+[
+    {
+        "eid": 101,
+        "ename": "Santosh",
+        "jobname": "Manager",
+        "sal": 25000
+    },
+    {
+        "eid": 102,
+        "ename": "Adams",
+        "jobname": "Analyst",
+        "sal": 25000
+    },
+    {
+        "eid": 103,
+        "ename": "Jones",
+        "jobname": "Clerk",
+        "sal": 25000
+    }
+]

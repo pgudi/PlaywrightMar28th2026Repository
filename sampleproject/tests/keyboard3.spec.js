@@ -1,0 +1,15 @@
+const {test, expect} = require("@playwright/test")
+
+test("Multiple Keyboard Combination", async({page})=>{
+    await page.goto("https://sgtestinginstituteapp.onrender.com/")
+    await page.waitForTimeout(3000)
+    await page.keyboard.press("Tab")
+    await page.keyboard.type("BHAGHAT SINGH")
+    await page.waitForTimeout(1000)
+    await page.keyboard.press("Control+A")
+    await page.waitForTimeout(2000)
+    await page.keyboard.press("Control+X")
+    await page.waitForTimeout(2000)
+    await page.keyboard.press("Control+V")
+    await page.waitForTimeout(2000)
+})
