@@ -1,0 +1,702 @@
+HTML 
+--------------
+HyperText Markup Language
+
+The main purpose of HTML to design Web Pages. HTML has the following syntax:
+
+<!doctype HTML>
+<html>
+   <head>
+        <title>Title of Web Page</title>
+   </head>
+   <body>
+         visible content on Web Page
+    </body>
+</html>
+
+Case 1: How to develop paragraphs in HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquam nesciunt debitis veritatis accusamus officiis, tempore laudantium quisquam nihil tempora officia exercitationem repellendus minima mollitia veniam fuga esse quasi numquam!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias optio quidem illo officia consequuntur! Nihil explicabo tempora minus atque asperiores facilis est ipsam, quae molestiae quas soluta ex maiores? Pariatur!
+    Blanditiis nemo ea quas voluptatibus, fugit quidem eum recusandae exercitationem, nesciunt, temporibus nam? Temporibus vel ab placeat accusantium, laboriosam rem repellendus modi illo distinctio aliquam, dignissimos, in laudantium laborum consequuntur.</p>
+    <p>Welcome to Bangalore City, Bangalore is a capital city of KArantaka</p>
+</body>
+</html>
+
+Case 2: How to display headings in HTML Web Page [h1 to h6]
+
+OpenTags & Close Tags
+
+OpenTags:
+These tags does not have any range
+<br>  -> New Line
+<hr>  -> Horizontal Line
+<image> -> Image
+
+Close Tags:
+<p>
+<h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to HTML Learning</h1>
+    <h2>Welcome to HTML Learning</h2>
+    <h3>Welcome to HTML Learning</h3>
+    <h4>Welcome to HTML Learning</h4>
+    <h5>Welcome to HTML Learning</h5>
+    <h6>Welcome to HTML Learning</h6>
+</body>
+</html>
+
+Case 3: How to design Links in Web Page
+TagName:
+<a></a>
+
+Attributes:
+href
+target:  _blank
+
+Note: 
+there are two type of HTML Elements are available
+
+1. Inline HTML Elements  -> These elements never apply new line character by default
+2. Block Level HTML Elements -> These elements apply new line character by default
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://playwright.dev" target="_blnak">Playwright Automation</a> <br>
+    <a href="https://selenium.dev" target="_blnak">Selenium Automation</a> <br>
+    <a href="https://poi.apache.org">Apache POI API</a> <br>
+    <a href="https://maven.apache.org">Apache Maven </a> <br>
+    <a href="https://tomcat.apache.org">apache tomcat</a> <br>
+</body>
+</html>
+
+
+Case 4: How to format the content in a web page
+Tags:
+<b>
+<i>
+<string>
+<mark>
+<del>
+<u>
+<sup>
+<sub>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Welcome to <b>Bangalore City</b>, Bangalore is a Capital City of Karantaka</p>
+    <p>Welcome to <i>Bangalore City</i>, Bangalore is a Capital City of Karantaka</p>
+    <p>Welcome to <strong>Bangalore City</strong>, Bangalore is a Capital City of Karantaka</p>
+    <p>Welcome to <u>Bangalore City</u>, Bangalore is a Capital City of Karantaka</p>
+    <p>Welcome to <mark>Bangalore City</mark>, Bangalore is a Capital City of Karantaka</p>
+    <p>Welcome to <del>Bangalore City</del>, Bangalore is a Capital City of Karantaka</p>
+    <p>Welcome to <b><i>Bangalore City</i></b>, Bangalore is a Capital City of Karantaka</p>
+    <p>(a+b) <sup>2</sup> = a <sup>2</sup> + b<sup>2</sup>+2ab</p>
+    <p>Acid = H<sub>2</sub> SO<sub>4</sub></p>
+</body>
+</html>
+
+Case 5: How to display Images in Web Page
+TagName: 
+image
+
+Attributes:
+src
+title
+alt
+height
+width
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./images/bird1.jpg" alt="bird Image" title="parrot bird" height="200" width="200"> 
+     <img src="./images/bird2.jpg" alt="bird Image" title="Sparrow bird" height="200" width="200">
+</body>
+</html>
+
+Case 6: How to design Ordered List Items in Web Page
+tagName:
+<ol>
+
+Attribute:
+type
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Watermelon</li>
+        <li>Pineapple</li>
+    </ol>
+    <hr>
+    <ol type="A">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Watermelon</li>
+        <li>Pineapple</li>
+    </ol>
+    <hr>
+    <ol type="a">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Watermelon</li>
+        <li>Pineapple</li>
+    </ol>
+    <hr>
+    <ol type="I">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Watermelon</li>
+        <li>Pineapple</li>
+    </ol>
+    <hr>
+
+    <ol type="i">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Watermelon</li>
+        <li>Pineapple</li>
+    </ol>
+    <hr>
+</body>
+</html>
+
+Case 7: How to design Unordered List in Web Page
+tagName: 
+<ul>
+
+Attributes:
+type
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Lotus</li>
+        <li>Tulip</li>
+        <li>Cosmos</li>
+        <li>Lavendar</li>
+        <li>Sunflower</li>
+    </ul>
+    <hr>
+    <ul type="square">
+        <li>Lotus</li>
+        <li>Tulip</li>
+        <li>Cosmos</li>
+        <li>Lavendar</li>
+        <li>Sunflower</li>
+    </ul>
+    <hr>
+       <ul type="circle">
+        <li>Lotus</li>
+        <li>Tulip</li>
+        <li>Cosmos</li>
+        <li>Lavendar</li>
+        <li>Sunflower</li>
+    </ul>
+    <hr>
+    <ul type="disc">
+        <li>Lotus</li>
+        <li>Tulip</li>
+        <li>Cosmos</li>
+        <li>Lavendar</li>
+        <li>Sunflower</li>
+    </ul>
+    <hr>
+</body>
+</html>
+
+Case 8: How to design Nested List Items in web Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li>Software Testing
+            <ul>
+                <li>Manual Testing</li>
+                <li>Web Automation</li>
+                <li>API Automation</li>
+            </ul>
+        </li>
+        <li>Software Development
+            <ol>
+                <li>Springboot</li>
+                <li>bootstrap</li>
+                <li>React</li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>
+
+Case 9: How to design Web Tables in Web Page
+
+Tag Names:
+<table>
+<thead>
+<tbody>
+<tr>
+<th>
+<td>
+
+attrubutes:
+border
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>DepatNo</th>
+                <th>DeptName</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10</td>
+                <td>Accounting</td>
+                <td>Dallas</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Research</td>
+                <td>California</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Sales</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>Operations</td>
+                <td>Boston</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+Case 10: Apply Attributes on HTML Table
+Attibutes at table Tag:
+bgcolor
+align
+border
+cellspacing
+cellpadding
+height
+width
+
+attrubutes at tr tag
+bgcolor
+align
+
+attributes at td tag
+bgcolor
+align
+rowspan
+colspan
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2" bgcolor="lightblue" align="center" cellspacing="10" cellpadding="10" height="300" width="500">
+        <thead>
+            <tr>
+                <th>DepatNo</th>
+                <th>DeptName</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr bgcolor="red" align="center">
+                <td>10</td>
+                <td>Accounting</td>
+                <td >Dallas</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td colspan="2" bgcolor="yellow" align="center">Research</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2">30</td>
+                <td>Sales</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Operations</td>
+                <td>Boston</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+Case 11: How to design Frames in a Web Page
+tagName:
+iframe
+
+attributes:
+src
+height
+width
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe src="./linksdemo.html" frameborder="2" height="200" width="300"></iframe> <br> <br>
+    <iframe src="./webtable1.html" frameborder="2" height="200" width="300"></iframe> <br> <br>
+</body>
+</html>
+
+Case 12: Design a Typical Application form
+tagName:
+form
+text field
+teatarea
+radio button
+checkbox
+submit
+reset
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Application Form</legend>
+        <form>
+            UserName:
+            <input type="text" name="username">
+            <br><br>
+            Description:
+            <textarea name="description"></textarea>
+            <br><br>
+            Gender:
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <br><br>
+            Hobbies:
+            <input type="checkbox" name="hohbbies[]">Reading
+            <input type="checkbox" name="hohbbies[]">Writing
+            <input type="checkbox" name="hohbbies[]">Swimming
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </fieldset>
+    
+</body>
+</html>
+
+Case 13: Design HTML 5 Form Elements:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>HTML 5 Elements</legend>
+        <form>
+            FirstName:
+            <input type="text" name="firstname">
+            <br><br>
+            EMail:
+            <input type="email" name="email">
+            <br><br>
+            Password:
+            <input type="password" name="password">
+            <br><br>
+            Age:
+            <input type="number" name="age">
+            <br><br>
+            Range:
+            <input type="range" name="range">
+            <br><br>
+            Secret:
+            <input type="hidden" name="secret">
+            <br><br>
+            <input type="submit" name="Save">
+            <input type="reset" name="Reset">
+        </form>
+    </fieldset>
+</body>
+</html>
+
+Case 14: Complete or detailed Application Form
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Application Form</legend>
+        <form>
+            FirstName:
+            <input type="text" name="firstname">
+            <br><br>
+            LastName:
+            <input type="text" name="firstname">
+            <br><br>
+            Gender:
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <br><br>
+            Hobbies:
+            <input type="checkbox" name="hohbbies[]">Reading
+            <input type="checkbox" name="hohbbies[]">Writing
+            <input type="checkbox" name="hohbbies[]">Swimming
+            <br><br>
+            Location:
+            <select name="location">
+                <option value="Raichur">Select City Name</option>
+                <option value="Raichur">Raichur</option>
+                <option value="Bellary">Bellary</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Mysore">Mysore</option>
+                <option value="Tumkur">Tumkur</option>
+            </select>
+            <br><br>
+            Photo:
+            <input type="file" name="photo">
+            <br><br>
+            Age:
+            <input type="number" name="age">
+            <br><br>
+            <input type="submit" name="Save">
+            <input type="reset" name="Reset">
+        </form>
+    </fieldset>
+</body>
+</html>
+
+Case 15: Design calendar using HTML in Web Page
+tagName:
+input
+
+Attributes:
+date
+datetime-local
+time
+month
+week
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Calendar Elements</legend>
+        <form>
+            Date:
+            <input type="date" name="date">
+            <br><br>
+            <input type="datetime-local" name="datetime">
+            <br><br>
+            <input type="time" name="time">
+            <br><br>
+            <input type="month" name="month">
+            <br><br>
+            <input type="week" name="week">
+            <br><br>
+            <input type="submit" name="Save">
+            <input type="reset" name="Reset">
+        </form>
+    </fieldset>
+
+</body>
+</html> 
+
+Case 16: Form attributes
+
+placeholder
+readonly
+disabled
+min
+max
+maxlength
+checked
+autofocus
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Form Attributes</legend>
+        <form>
+            FirstName:
+            <input type="text" name="firstname" placeholder="Enter FirstName">
+            <br><br>
+            LastName:
+            <input type="text" name="firstname" maxlength="10" autofocus="">
+            <br><br>
+            Address1:
+            <input type="text" name="address1" value="Bangalore" readonly>
+            <br><br>
+            Address2:
+            <input type="text" value="Attiguppe" name="address2" disabled>
+            <br><br>
+            Age:
+            <input type="number" name="age" min="10" max="25">
+            <br><br>
+            Hobbies:
+            <input type="checkbox" name="hohbbies[]" checked>Reading
+            <input type="checkbox" name="hohbbies[]">Writing
+            <input type="checkbox" name="hohbbies[]">Swimming
+            <br><br>
+            <input type="submit" name="Save">
+            <input type="reset" name="Reset">
+        </form>
+    </fieldset>
+</body>
+</html>
+
+Case 17: How to Apply events in a Web Page Elements
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display(){
+            document.write("Display Even Numbers:"+"<br/>")
+            for(let i=10;i<=40;i++){
+                if(i%2==0){
+                    document.write("Even Number :"+i+"<br/>")
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h3>Execute Result:</h3>
+    <button name="execute" onmouseout="display()">Execute</button>
+</body>
+</html>
+
+Case 18: Design Alerts in Web Page
+There are 3 Types of Alerts
+1. Simple Alert
+2. Confirm
+3. prompt
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showsimplealert(){
+            alert("Welcome to HTML Learning !!!")
+        }
+        function showconfirm(){
+            confirm("Are you Delete demoUser1 from Database?")
+        }
+
+        function showPrompt(){
+            prompt("Enter the TestScript Name for Debug:")
+        }
+    </script>
+</head>
+<body>
+    <h3 align="center">Show Alerts</h3>
+    <button name="simplealert" onclick="showsimplealert()">Simple Alert</button> <br><br><br>
+    <button name="confirmalert" onclick="showconfirm()">Confirm Alert</button> <br><br><br>
+    <button name="promptalert" onclick="showPrompt()">Prompt Alert</button> <br><br><br>
+</body>
+</html>

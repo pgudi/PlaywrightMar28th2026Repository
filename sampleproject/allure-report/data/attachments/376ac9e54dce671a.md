@@ -1,0 +1,80 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - link "S G Software Testing Institute" [ref=e7] [cursor=pointer]:
+          - /url: /home
+        - generic [ref=e8]:
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Home" [ref=e11] [cursor=pointer]:
+                - /url: /home
+            - listitem [ref=e12]:
+              - link "Employees" [ref=e13] [cursor=pointer]:
+                - /url: /employee
+            - listitem [ref=e14]:
+              - link "Customers" [ref=e15] [cursor=pointer]:
+                - /url: /customer
+            - listitem [ref=e16]:
+              - link "Projects" [ref=e17] [cursor=pointer]:
+                - /url: /project
+            - listitem [ref=e18]:
+              - link "Tasks" [ref=e19] [cursor=pointer]:
+                - /url: /task
+            - listitem [ref=e20]:
+              - link "Import Employee" [ref=e21] [cursor=pointer]:
+                - /url: /import
+          - list [ref=e22]:
+            - listitem [ref=e23]:
+              - button "Logout" [ref=e24] [cursor=pointer]
+    - heading "S G Software Testing Institute" [level=2] [ref=e25]
+    - generic [ref=e26]:
+      - paragraph [ref=e27]:
+        - strong [ref=e28]: S G Software Testing Institute
+        - text: is one of Bangalore’s most trusted and results-driven Software Training Institutes, known for delivering
+        - strong [ref=e29]: 100% Guaranteed Job Placement support, industry-oriented training,
+        - text: and
+        - strong [ref=e30]: cost-effective programs
+        - text: that truly transform careers.
+      - paragraph [ref=e31]:
+        - text: We offer expert-crafted courses in
+        - strong [ref=e32]: Software Testing (Manual, Web & API Automation), SQL, AI & Agentic, Mobile Automation,
+        - text: and
+        - strong [ref=e33]: Java, Python, JavaScript & TypeScript
+        - text: ", designed to give students not just theoretical knowledge, but"
+        - strong [ref=e34]: real-time, hands-on experience
+        - text: that companies value.
+      - paragraph [ref=e35]:
+        - text: Over the years, we’ve empowered
+        - strong [ref=e36]: Freshers, Software Engineers, Working Professionals, corporate teams, and aspiring individuals
+        - text: to upskill with confidence and step into the software industry with solid expertise.
+        - text: Our secret?
+      - list [ref=e37]:
+        - listitem [ref=e38]:
+          - strong [ref=e39]: Small batch sizes for personal attention
+        - listitem [ref=e40]:
+          - strong [ref=e41]: Flexible class schedules
+        - listitem [ref=e42]:
+          - strong [ref=e43]: One-to-one mentoring
+        - listitem [ref=e44]:
+          - strong [ref=e45]: Practical training based on real project scenarios
+        - listitem [ref=e46]:
+          - strong [ref=e47]: Dedicated job assistance until you get placed
+      - paragraph [ref=e48]:
+        - text: At S G Software Testing Institute, training is delivered by
+        - strong [ref=e49]: highly experienced professionals from top MNCs,
+        - text: bringing real-world insights directly into the classroom. Their practical exposure ensures that every student receives the
+        - strong [ref=e50]: best-in-class training methodology,
+        - text: modern tools, and real project case studies.
+      - paragraph [ref=e51]:
+        - text: Our mission is to build your confidence and shape you into a
+        - strong [ref=e52]: competent, industry-ready professional
+        - text: capable of thriving in today’s competitive software world.
+      - paragraph [ref=e53]:
+        - text: If you're looking to begin your career, upgrade your skills, or switch to a high-growth tech role—
+        - strong [ref=e54]: S G Software Testing Institute is the place where your journey begins.
+  - generic [ref=e55]: CopyRight@2026 All Rights Reserved
+```
