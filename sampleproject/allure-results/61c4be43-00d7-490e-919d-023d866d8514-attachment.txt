@@ -1,0 +1,2 @@
+This testcase Displays a Specific Customer using GET HTTP Method!!!
+Response Body :{"customerId":1038,"customerNumber":21,"customerName":"auto_api_demo_01","emailId":"autoapi@sg.com","location":"New York","customerDescription":"Provides Services to Hard disk","createdAt":"2026-06-07T05:54:34.813+00:00","updatedAt":"2026-06-07T05:54:34.813+00:00"}

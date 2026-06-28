@@ -1,7 +1,6 @@
 Feature: Login and Logout functionality
 
   Scenario: Validate Login and Logout functionality
-    Given I launch chromium browser
     When I navigate application url
     Then I find the login page
     When I enter username in username text field
