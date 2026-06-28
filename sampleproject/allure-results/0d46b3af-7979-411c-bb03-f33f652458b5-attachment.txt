@@ -1,0 +1,2 @@
+This testcase Deletes a Specific Customer using DELETE HTTP Method!!!
+Response Body :The Customer with customer Id 1038 has deleted successfully

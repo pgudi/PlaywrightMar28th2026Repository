@@ -1,0 +1,1 @@
+This testcase creates Customer using POST HTTP Method!!!
